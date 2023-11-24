@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:picts_editor_app/core/route/app_route.dart';
 import 'package:picts_editor_app/core/route/app_route_name.dart';
+import 'package:picts_editor_app/core/theme/app_theme.dart';
 import 'package:picts_editor_app/main_module.dart';
 
 void main() {
@@ -13,9 +14,12 @@ class MyApp extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const MaterialApp(
+    return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Photo Editor App",
+      title: "Picts App",
+      theme: AppTheme.light,
+      darkTheme: AppTheme.dark,
+      themeMode: ThemeMode.light,
       initialRoute: AppRouteName.getStarted,
       onGenerateRoute: AppRoute.generate,
     );

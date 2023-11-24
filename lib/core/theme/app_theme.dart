@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:picts_editor_app/core/theme/app_textstyle.dart';
 import '/core/theme/app_color.dart';
 
-
 class AppTheme {
   static final AppTextStyle _textStyle = AppTextStyle.instance;
 
@@ -26,7 +25,9 @@ class AppTheme {
       bodyLarge: _textStyle.bodyLarge,
       bodyMedium: _textStyle.bodyMedium,
       bodySmall: _textStyle.bodySmall,
-    ), colorScheme: ColorScheme.fromSwatch(primarySwatch: AppColor.primarySwatch).copyWith(background: AppColor.backgroundWhite),
+    ),
+    colorScheme: ColorScheme.fromSwatch(primarySwatch: AppColor.primarySwatch)
+        .copyWith(background: AppColor.backgroundWhite),
   );
 
   static ThemeData dark = ThemeData(
@@ -49,6 +50,8 @@ class AppTheme {
       bodyLarge: _textStyle.bodyLarge.copyWith(color: AppColor.white),
       bodyMedium: _textStyle.bodyMedium.copyWith(color: AppColor.white),
       bodySmall: _textStyle.bodySmall.copyWith(color: AppColor.white),
-    ), colorScheme: ColorScheme.fromSwatch(primarySwatch: AppColor.primarySwatch).copyWith(background: AppColor.backgroundBlack),
+    ),
+    colorScheme: ColorScheme.fromSwatch(primarySwatch: AppColor.primarySwatch)
+        .copyWith(background: AppColor.backgroundBlack),
   );
 }
