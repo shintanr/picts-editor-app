@@ -16,11 +16,11 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
-      title: "Photo Editor App",
+      title: "Picts App",
       theme: AppTheme.light,
       darkTheme: AppTheme.dark,
       themeMode: ThemeMode.light,
-      initialRoute: AppRouteName.getStarted,
+      initialRoute: AppRouteName.splashScreen,
       onGenerateRoute: AppRoute.generate,
     );
   }

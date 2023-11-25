@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class AppColor {
-  static Color primaryColor = const Color(0xFF489E83);
+  static Color primaryColor = Colors.amber;
   static Color secondaryColor = const Color(0xFFFAE591);
   static Color white = const Color(0xFFFFFFFF);
   static Color black = const Color(0xFF000000);
@@ -12,7 +12,7 @@ class AppColor {
   static Color transparent = Colors.transparent;
 
   static MaterialColor primarySwatch = const MaterialColor(
-    0xFF489E83,
+    0xFF49AFE6,
     {
       50: Color(0xFFa4cfc1),
       100: Color(0xFF91c5b5),

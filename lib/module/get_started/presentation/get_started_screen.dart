@@ -15,7 +15,7 @@ class GetStartedScreen extends StatelessWidget {
               decoration: const BoxDecoration(
                 image: DecorationImage(
                   image: AssetImage(
-                    "assets/img_started.png",
+                    "assets/get_started.jpg",
                   ),
                   fit: BoxFit.cover,
                 ),
@@ -41,7 +41,7 @@ class GetStartedScreen extends StatelessWidget {
               mainAxisSize: MainAxisSize.min,
               children: [
                 Text(
-                  "The best free stock photos, royalty free images & videos shared by creators.",
+                  "Uncover a symphony of exceptional stock photos, royalty-free images, and shared videos crafted by talented creators – all free for your creative journey.",
                   style: Theme.of(context).textTheme.headlineSmall,
                   textAlign: TextAlign.center,
                 ),
@@ -57,12 +57,12 @@ class GetStartedScreen extends StatelessWidget {
                       );
                     },
                     style: ElevatedButton.styleFrom(
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(16),
-                      ),
-                    ),
+                        shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(16),
+                        ),
+                        backgroundColor: Colors.amber),
                     child: Text(
-                      "Explore Now",
+                      "Enjoy the Picts",
                       style: Theme.of(context)
                           .textTheme
                           .titleMedium

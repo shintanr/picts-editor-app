@@ -83,7 +83,7 @@ class _DetailPhotoLayoutState extends State<DetailPhotoLayout> {
           ),
           centerTitle: false,
           title: Text(
-            "Detail Photo",
+            "Detail Picts",
             style: Theme.of(context).textTheme.titleMedium,
           ),
           actions: [
@@ -221,9 +221,10 @@ class _DetailPhotoLayoutState extends State<DetailPhotoLayout> {
                               shape: RoundedRectangleBorder(
                                 borderRadius: BorderRadius.circular(16),
                               ),
+                              backgroundColor: Colors.amber,
                             ),
                             child: Text(
-                              "Edit Photo",
+                              "Edit Picts",
                               style: Theme.of(context)
                                   .textTheme
                                   .titleSmall
