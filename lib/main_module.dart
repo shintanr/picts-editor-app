@@ -7,7 +7,7 @@ import 'package:photo_editor/module/seach_photo/repository/search_repository.dar
 import 'package:photo_editor/module/seach_photo/repository/search_repository_impl.dart';
 
 class MainModule {
-  /// Main Module for initialize GetIt (DI)
+  /// Main Module untuk inisialisasi GetIt (DI)
   static void init() {
     /// main client for PexelAPI
     GetIt.I.registerLazySingleton(
